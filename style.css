@@ -1,0 +1,55 @@
+/* (*) symbol specify the universal selector */
+html{
+	scroll-behavior: smooth;
+}
+
+title{
+		font-display: center;
+}
+
+*{
+		font-family: "Roboto", sans-serif ;
+}
+
+h1, h3{
+			font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+img{
+		width: 250px;
+		height: 250px;
+		margin: 10px;
+}
+
+/* ID Elements */
+#landing{
+	/* vh stand for Viewport Height */
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery{
+	/* vh stand for Viewport Height */
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Class Elements */
+.tools{
+	height: 200px;
+	width: 75%;
+	margin: 20px;
+	border: 5px solid #f2f2f2;
+	padding: 25px;
+}
